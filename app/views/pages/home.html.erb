@@ -1,2 +1,6 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="main-element" data-controller="pouet">
+  <%= image_tag 'pouet.png', data: { action: 'click->pouet#pouet' } %>
+  <div class="d-none">
+    <audio controls src="<%= asset_path 'pouet_pouet.mp3' %>" data-pouet-target="player"></audio>
+  </div>
+</div>

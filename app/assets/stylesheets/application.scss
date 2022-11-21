@@ -10,3 +10,15 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.poueting {
+  animation: poueting 1000ms;
+}
+
+@keyframes poueting {
+  0% { scale: 1.05 }
+  15% { scale: 1.15 }
+  35% { scale: 1 }
+  50% { scale: 1.15 }
+  65% { scale: 1 }
+}
